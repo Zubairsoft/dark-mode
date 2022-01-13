@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="dark">
+    <script>
+        function dark(){
+        document.getElementById("dark").style.backgroundColor="black";
+        document.getElementById("dark").style.color="white";}
+        function light(){
+        document.getElementById("dark").style.backgroundColor="white";
+        document.getElementById("dark").style.color="black";}
+    </script>
+     <p>select mode</p>
+    <button onclick="dark()">
+        dark mode
+    </button>
+    <button onclick="light()">
+        light mode
+    </button>
+    <p></p>
+</body>
+</html>
